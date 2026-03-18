@@ -66,7 +66,7 @@ Training: Open the desired notebook in the Notebooks/ folder using Google Colab 
 
 Testing/Inference: Use the scripts located in test_scripts/ to run inference on your own data using pre-trained weights.
 
-##Acknowledgments and References
+## Acknowledgments and References
 This project references the methodologies and datasets discussed in the following publication:
 
 T.-S. Park, Y.-M. Jeong, and J.-O. Kim, "Multi-Band NIR Colorization via Dual-Teacher Color and Structure Distillation," IEEE Access, 2025.
