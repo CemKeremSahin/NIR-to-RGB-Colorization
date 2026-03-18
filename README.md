@@ -54,12 +54,14 @@ The models were evaluated using standard image reconstruction metrics: Peak Sign
 ├── test_scripts/       # Python scripts (.py) for inference, testing, and metric calculation (PyCharm).
 └── README.md           # Project documentation.
 ```
- Installation and Usage
-Clone the repository:
+##Installation and Usage
 
+Clone the repository
 Bash
+```text
 git clone [https://github.com/CemKeremSahin/NIR-to-RGB-Colorization.git](https://github.com/CemKeremSahin/NIR-to-RGB-Colorization.git)
 cd NIR-to-RGB-Colorization
+```
 Training: Open the desired notebook in the Notebooks/ folder using Google Colab or your local Jupyter environment.
 
 Testing/Inference: Use the scripts located in test_scripts/ to run inference on your own data using pre-trained weights.
