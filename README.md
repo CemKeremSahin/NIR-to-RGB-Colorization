@@ -4,7 +4,7 @@ This repository contains the implementation and comparative analysis of various 
 
 The primary goal is to convert single-band NIR images, which are rich in structural detail but lack chrominance information, into realistic RGB images while preserving semantic and structural integrity.
 
-## 🚀 Project Overview
+##  Project Overview
 
 We implemented and evaluated five distinct network architectures, training each extensively for **3,500 epochs** to ensure convergence and robust performance comparison.
 
@@ -16,22 +16,21 @@ We implemented and evaluated five distinct network architectures, training each 
 5.  **S-Net (S-shaped Network):** Focuses on enhancing object boundaries during the colorization process.
 
 ---
-
-## 🖼️ Visual Results (Input vs Output vs Ground Truth)
-
-Below are qualitative comparison samples illustrating the performance of the implemented models against the Ground Truth (GT) RGB image.
-
-
-
-| NIR Input | Vanilla Autoencoder | U-Net Output | U-Net-GAN Output | Ground Truth RGB |
-| :---: | :---: | :---: | :---: | :---: |
-| <img src="samples/samples_CLASSIC_UNET/0066_CLASSIC_UNET_NIR_INPUT.tif" width="160" alt="NIR Input"/> | <img src="samples/samples_Vanilla_Autoencoder/output_sample.png" width="160" alt="Vanilla Autoencoder"/> | <img src="samples/samples_CLASSIC_UNET/output_sample.png" width="160" alt="U-Net Output"/> | <img src="samples/samples_UNET-GAN/output_sample.png" width="160" alt="U-Net-GAN Output"/> | <img src="samples/samples_CLASSIC_UNET/gt_sample.png" width="160" alt="Ground Truth"/> |
+## Dataset Information
+Datasets Used:
+* Real-World Dataset: Includes 538 image pairs (458 training / 80 testing) covering complex indoor and outdoor scenes like streets, buildings, and vegetation.
+* All images are normalized to (0, 1) and resized to 480 * 640 pixels for efficient training.
 
 
+ ## Key Highlights 
+ * Extensive Training: Models were trained for 3,500 epochs (Learning Rate: $2 \times 10^{-4}$) to ensure maximum convergence and stability.
+ * Multi-Architecture Comparison: Side-by-side performance analysis of 5 state-of-the-art architectures.
+ * Quantitative Superiority: U-Net achieved the highest fidelity with a PSNR of 21.7313 and SSIM of 0.8163.
+ * Modular Structure: Separated training notebooks and inference scripts for easy reproducibility.
 
----
 
-## 📊 Quantitative Evaluation Metrics
+
+##  Quantitative Evaluation Metrics
 
 The models were evaluated using standard image reconstruction metrics: Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index (SSIM), and Color Difference ($\Delta E$).
 
@@ -47,14 +46,14 @@ The models were evaluated using standard image reconstruction metrics: Peak Sign
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 ├── Notebooks/          # Jupyter (.ipynb) notebooks containing the training workflows for Colab/Local GPU.
 ├── images/             # Documentation images and samples used in this README.
 ├── test_scripts/       # Python scripts (.py) for inference, testing, and metric calculation (PyCharm).
 └── README.md           # Project documentation.
-🛠️ Installation and Usage
+ Installation and Usage
 Clone the repository:
 
 Bash
@@ -64,9 +63,18 @@ Training: Open the desired notebook in the Notebooks/ folder using Google Colab 
 
 Testing/Inference: Use the scripts located in test_scripts/ to run inference on your own data using pre-trained weights.
 
-📚 Acknowledgments and References
+Acknowledgments and References
 This project references the methodologies and datasets discussed in the following publication:
 
 T.-S. Park, Y.-M. Jeong, and J.-O. Kim, "Multi-Band NIR Colorization via Dual-Teacher Color and Structure Distillation," IEEE Access, 2025.
 
 If you find this comparative study useful for your research, please consider citing this repository and the reference paper.
+
+# Contact
+For research inquiries, professional collaborations, or any questions regarding the models and datasets, please feel free to reach out:
+
+Author: Cem Kerem Şahin
+
+Email: [cemkeremsahin@gmail.com]
+
+GitHub: @CemKeremSahin
