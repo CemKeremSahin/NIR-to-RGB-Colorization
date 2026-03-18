@@ -52,7 +52,7 @@ The models were evaluated using standard image reconstruction metrics: Peak Sign
 ├── Notebooks/          # Jupyter (.ipynb) notebooks containing the training workflows for Colab/Local GPU.
 ├── images/             # Documentation images and samples used in this README.
 ├── test_scripts/       # Python scripts (.py) for inference, testing, and metric calculation (PyCharm).
-└── README.md           # Project documentation.
+└── README.md           # Project documentation.```
  Installation and Usage
 Clone the repository:
 
