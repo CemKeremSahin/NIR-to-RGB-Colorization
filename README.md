@@ -54,7 +54,7 @@ The models were evaluated using standard image reconstruction metrics: Peak Sign
 ├── test_scripts/       # Python scripts (.py) for inference, testing, and metric calculation (PyCharm).
 └── README.md           # Project documentation.
 ```
-##Installation and Usage
+## Installation and Usage
 
 Clone the repository
 Bash
@@ -66,18 +66,18 @@ Training: Open the desired notebook in the Notebooks/ folder using Google Colab 
 
 Testing/Inference: Use the scripts located in test_scripts/ to run inference on your own data using pre-trained weights.
 
-Acknowledgments and References
+##Acknowledgments and References
 This project references the methodologies and datasets discussed in the following publication:
 
 T.-S. Park, Y.-M. Jeong, and J.-O. Kim, "Multi-Band NIR Colorization via Dual-Teacher Color and Structure Distillation," IEEE Access, 2025.
 
 If you find this comparative study useful for your research, please consider citing this repository and the reference paper.
 
-# Contact
+## Contact
 For research inquiries, professional collaborations, or any questions regarding the models and datasets, please feel free to reach out:
 
 Author: Cem Kerem Şahin
 
-Email: [cemkeremsahin@gmail.com]
+Email: cemkeremsahin@gmail.com
 
 GitHub: @CemKeremSahin
