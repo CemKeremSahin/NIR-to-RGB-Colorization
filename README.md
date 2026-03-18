@@ -25,7 +25,7 @@ Below are qualitative comparison samples illustrating the performance of the imp
 
 | NIR Input | Vanilla Autoencoder | U-Net Output | U-Net-GAN Output | Ground Truth RGB |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="samples/samples_CLASSIC_UNET/0066_CLASSIC_UNET_NIR_INPUT.tif" width="150"/> | <img src="samples/samples_Vanilla_Autoencoder/output_sample.png" width="150"/> | <img src="samples/samples_CLASSIC_UNET/output_sample.png" width="150"/> | <img src="samples/samples_UNET-GAN/output_sample.png" width="150"/> | <img src="samples/samples_CLASSIC_UNET/gt_sample.png" width="150"/> |
+| <img src="samples/samples_CLASSIC_UNET/0066_CLASSIC_UNET_NIR_INPUT.tif" width="160" alt="NIR Input"/> | <img src="samples/samples_Vanilla_Autoencoder/output_sample.png" width="160" alt="Vanilla Autoencoder"/> | <img src="samples/samples_CLASSIC_UNET/output_sample.png" width="160" alt="U-Net Output"/> | <img src="samples/samples_UNET-GAN/output_sample.png" width="160" alt="U-Net-GAN Output"/> | <img src="samples/samples_CLASSIC_UNET/gt_sample.png" width="160" alt="Ground Truth"/> |
 
 
 
